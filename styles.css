@@ -1,2 +1,37 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-/* Your CSS Code here. */
+/* Container */
+.container {
+    text-align: center;
+    width: 60%;
+}
+
+/* Movie Poster */
+.moviePic {
+    height: 400px;
+    width: 300px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+/* Movie Description */
+.movieDetail {
+    position: relative;
+    top: 20px;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px auto;
+}
